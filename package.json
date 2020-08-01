@@ -1,0 +1,19 @@
+{
+  "name": "node-crud-test-henri",
+  "version": "1.0.0",
+  "scripts": {
+    "server": "nodemon app.js --watch",
+    "client": "npm run dev --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^5.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.27",
+    "nodemon": "1.18.4"
+  }
+}
